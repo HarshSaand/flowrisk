@@ -1,0 +1,116 @@
+{
+  "daily": [
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-06-01",
+      "aggregate_trade_events": 1206910,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-06-02",
+      "aggregate_trade_events": 1677042,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-06-03",
+      "aggregate_trade_events": 1721175,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-07-01",
+      "aggregate_trade_events": 1093532,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-07-02",
+      "aggregate_trade_events": 997488,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-07-03",
+      "aggregate_trade_events": 667642,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-08-01",
+      "aggregate_trade_events": 266286,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-08-02",
+      "aggregate_trade_events": 351945,
+      "minutes": 1440
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-08-03",
+      "aggregate_trade_events": 623312,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-06-01",
+      "aggregate_trade_events": 924865,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-06-02",
+      "aggregate_trade_events": 1380545,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-06-03",
+      "aggregate_trade_events": 1563283,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-07-01",
+      "aggregate_trade_events": 729850,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-07-02",
+      "aggregate_trade_events": 864516,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-07-03",
+      "aggregate_trade_events": 730930,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-08-01",
+      "aggregate_trade_events": 237559,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-08-02",
+      "aggregate_trade_events": 324044,
+      "minutes": 1440
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-08-03",
+      "aggregate_trade_events": 449388,
+      "minutes": 1440
+    }
+  ],
+  "total_aggregate_trade_events": 15810312,
+  "total_minutes": 25920,
+  "chunk_size": 250000,
+  "rv_definition": "sum of squared log aggregate-trade-price returns within each UTC minute; first event per file omitted"
+}

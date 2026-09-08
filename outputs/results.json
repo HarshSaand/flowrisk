@@ -1,0 +1,171 @@
+{
+  "variance": {
+    "selection_metric": "QLIKE",
+    "test": {
+      "historical_60min": {
+        "mae": 1.8525728904781082e-08,
+        "rmse": 1.7491973213283103e-07,
+        "n": 8512,
+        "qlike": 1.7207850975838326
+      },
+      "ewma_15min": {
+        "mae": 1.697267540570396e-08,
+        "rmse": 1.7527330506196163e-07,
+        "n": 8512,
+        "qlike": 1.5263497452747137
+      },
+      "learned": {
+        "mae": 2.1681410291934987e-08,
+        "rmse": 1.8354761842720243e-07,
+        "n": 8512,
+        "qlike": 1.7888311629850897
+      }
+    },
+    "by_symbol": {
+      "BTCUSDT": {
+        "historical_60min": {
+          "mae": 7.269192219817444e-09,
+          "rmse": 3.260628171965662e-08,
+          "n": 4256,
+          "qlike": 2.2456557579010017
+        },
+        "ewma_15min": {
+          "mae": 6.8571854302220414e-09,
+          "rmse": 3.212398264448648e-08,
+          "n": 4256,
+          "qlike": 2.1071093632923965
+        },
+        "learned": {
+          "mae": 1.4207088745098755e-08,
+          "rmse": 4.119151556444533e-08,
+          "n": 4256,
+          "qlike": 2.576032856679012
+        }
+      },
+      "ETHUSDT": {
+        "historical_60min": {
+          "mae": 2.9782265589744724e-08,
+          "rmse": 2.452155292212569e-07,
+          "n": 4256,
+          "qlike": 1.195914437266663
+        },
+        "ewma_15min": {
+          "mae": 2.7088165381185887e-08,
+          "rmse": 2.457834670472033e-07,
+          "n": 4256,
+          "qlike": 0.9455901272570308
+        },
+        "learned": {
+          "mae": 2.915573183877122e-08,
+          "rmse": 2.5628639352509496e-07,
+          "n": 4256,
+          "qlike": 1.0016294692911674
+        }
+      }
+    },
+    "selected_max_leaf_nodes": 7,
+    "quantiles": {
+      "raw_outer_crossing_rate": 0.0,
+      "rearrangement": "sort q05/q50/q95 per row",
+      "pinball_loss": {
+        "0.05": 8.18206386042088e-10,
+        "0.5": 6.19995368840259e-09,
+        "0.95": 7.3917486093446885e-09
+      },
+      "nominal_coverage": 0.9,
+      "observed_coverage": 0.697250939849624,
+      "mean_width": 3.709994783716539e-08
+    },
+    "uncertainty": {
+      "loss": "QLIKE",
+      "learned_minus_ewma": 0.262481417710376,
+      "ci95_day_block": [
+        -0.07251021876037964,
+        0.7019232650416197
+      ],
+      "unique_days": 3,
+      "replicates": 2000,
+      "interpretation": "negative favours learned; paired days jointly retain both symbols; few blocks limit reliability"
+    }
+  },
+  "volume": {
+    "selection_metric": "MAE",
+    "test": {
+      "historical_60min": {
+        "mae": 946669.690971161,
+        "rmse": 1851798.4186348722,
+        "n": 8512
+      },
+      "ewma_15min": {
+        "mae": 875289.0915000802,
+        "rmse": 1771493.2731032525,
+        "n": 8512
+      },
+      "learned": {
+        "mae": 1856156.8928798386,
+        "rmse": 2612812.336587252,
+        "n": 8512
+      }
+    },
+    "by_symbol": {
+      "BTCUSDT": {
+        "historical_60min": {
+          "mae": 1338888.2701438302,
+          "rmse": 2317819.766388454,
+          "n": 4256
+        },
+        "ewma_15min": {
+          "mae": 1258039.2532208692,
+          "rmse": 2236355.0028221146,
+          "n": 4256
+        },
+        "learned": {
+          "mae": 2327065.265494722,
+          "rmse": 3293822.420923163,
+          "n": 4256
+        }
+      },
+      "ETHUSDT": {
+        "historical_60min": {
+          "mae": 554451.1117984917,
+          "rmse": 1219026.7827476964,
+          "n": 4256
+        },
+        "ewma_15min": {
+          "mae": 492538.9297792915,
+          "rmse": 1129200.2190278964,
+          "n": 4256
+        },
+        "learned": {
+          "mae": 1385248.520264955,
+          "rmse": 1674607.5575695175,
+          "n": 4256
+        }
+      }
+    },
+    "selected_max_leaf_nodes": 7,
+    "quantiles": {
+      "raw_outer_crossing_rate": 0.0,
+      "rearrangement": "sort q05/q50/q95 per row",
+      "pinball_loss": {
+        "0.05": 148471.91215311494,
+        "0.5": 518622.5747812784,
+        "0.95": 367551.10085314716
+      },
+      "nominal_coverage": 0.9,
+      "observed_coverage": 0.5550986842105263,
+      "mean_width": 6736729.918916803
+    },
+    "uncertainty": {
+      "loss": "MAE",
+      "learned_minus_ewma": 980867.8013797584,
+      "ci95_day_block": [
+        532802.257838501,
+        1438301.5118426897
+      ],
+      "unique_days": 3,
+      "replicates": 2000,
+      "interpretation": "negative favours learned; paired days jointly retain both symbols; few blocks limit reliability"
+    }
+  }
+}

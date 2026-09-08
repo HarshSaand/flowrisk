@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "features": [
+    "rv_1",
+    "rv_5",
+    "rv_15",
+    "rv_60",
+    "volume_1",
+    "volume_5",
+    "volume_15",
+    "volume_60",
+    "events_5",
+    "imbalance_1",
+    "imbalance_5",
+    "rv_ewma",
+    "volume_ewma",
+    "hour_sin",
+    "hour_cos",
+    "symbol_eth"
+  ],
+  "forecast_origin": "after minute t fully closes; predict variance t+1 and quote volume t+1..t+5",
+  "split_counts": {
+    "train": {
+      "rows": 8512,
+      "min_timestamp": "2026-06-01 00:59:00+00:00",
+      "max_timestamp": "2026-06-03 23:54:00+00:00",
+      "label_end_max": "2026-06-04 00:00:00+00:00",
+      "utc_days": [
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03"
+      ]
+    },
+    "development": {
+      "rows": 8512,
+      "min_timestamp": "2026-07-01 00:59:00+00:00",
+      "max_timestamp": "2026-07-03 23:54:00+00:00",
+      "label_end_max": "2026-07-04 00:00:00+00:00",
+      "utc_days": [
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03"
+      ]
+    },
+    "test": {
+      "rows": 8512,
+      "min_timestamp": "2026-08-01 00:59:00+00:00",
+      "max_timestamp": "2026-08-03 23:54:00+00:00",
+      "label_end_max": "2026-08-04 00:00:00+00:00",
+      "utc_days": [
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-03"
+      ]
+    }
+  },
+  "provenance_sha256": "fd5493a6355d52cab97c607c41598a707974ce59ace9b8a37d422ebeffc6e27f"
+}

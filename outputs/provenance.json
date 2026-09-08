@@ -1,0 +1,154 @@
+{
+  "source": "https://github.com/binance/binance-public-data",
+  "period": "June\u2013August 2026, first 3 contiguous days of each month only",
+  "days_per_month": 3,
+  "download_cap_mb": 250,
+  "compressed_bytes": 236334842,
+  "files": [
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-06-01",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-06-01.zip",
+      "filename": "BTCUSDT-aggTrades-2026-06-01.zip",
+      "bytes": 17406110,
+      "sha256": "cfd4c1b50a8123c696673213a35604e7bb776c3ed8b4e2fb63745efe779fa57a"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-06-02",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-06-02.zip",
+      "filename": "BTCUSDT-aggTrades-2026-06-02.zip",
+      "bytes": 24412608,
+      "sha256": "840ba4cbb1dbc1b3498db81c02c4f5ab83f03fc89d2395a2ec6047f1db02af35"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-06-03",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-06-03.zip",
+      "filename": "BTCUSDT-aggTrades-2026-06-03.zip",
+      "bytes": 24966397,
+      "sha256": "94bbc68aa969bf71c490104157c42c735dea0f41595c073bc160a38633785aaa"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-07-01",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-07-01.zip",
+      "filename": "BTCUSDT-aggTrades-2026-07-01.zip",
+      "bytes": 16077160,
+      "sha256": "6b00333f582003fadbcd17c4521d4607896c84d61abdcd91bfb1e2c7b904c90c"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-07-02",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-07-02.zip",
+      "filename": "BTCUSDT-aggTrades-2026-07-02.zip",
+      "bytes": 14703559,
+      "sha256": "f958dd94ece296683393b53eec1af20bc3aae1ae1e494612933a39397dd6c6f8"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-07-03",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-07-03.zip",
+      "filename": "BTCUSDT-aggTrades-2026-07-03.zip",
+      "bytes": 9932442,
+      "sha256": "021bea55b0a19c853c280589228b471ce32c4a67ad9d5ede70f8b4fc44ee0901"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-08-01",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-08-01.zip",
+      "filename": "BTCUSDT-aggTrades-2026-08-01.zip",
+      "bytes": 4143007,
+      "sha256": "59071e00012c8a766a25e6a2e8b90f7617cd2c18694b9084ab7fafbddb76bcc8"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-08-02",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-08-02.zip",
+      "filename": "BTCUSDT-aggTrades-2026-08-02.zip",
+      "bytes": 5353424,
+      "sha256": "a6fe3e825e0a8c80b3a7ddc1072fb82abeb4ea88c14b965cee1184acda61bcce"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-08-03",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-08-03.zip",
+      "filename": "BTCUSDT-aggTrades-2026-08-03.zip",
+      "bytes": 9310127,
+      "sha256": "25b1bff99df7b0fa65e24c9de6118ae8c4a9da6d6ec88aee781aee28e294e44f"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-06-01",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-06-01.zip",
+      "filename": "ETHUSDT-aggTrades-2026-06-01.zip",
+      "bytes": 14043874,
+      "sha256": "8ea989e245f270d47cd5f9bd4a7b53fccdbc02b6f985c994514f880e1737cc53"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-06-02",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-06-02.zip",
+      "filename": "ETHUSDT-aggTrades-2026-06-02.zip",
+      "bytes": 20953815,
+      "sha256": "4b289510091cb1d07e7262b819e68b2167ac8fb51122782a0820e60e4f970f0d"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-06-03",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-06-03.zip",
+      "filename": "ETHUSDT-aggTrades-2026-06-03.zip",
+      "bytes": 23730715,
+      "sha256": "d87240676b1d1e5ba69e1c3c9e6579521260f4146a7eb6cc12ba7db84c72f6f8"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-07-01",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-07-01.zip",
+      "filename": "ETHUSDT-aggTrades-2026-07-01.zip",
+      "bytes": 11274916,
+      "sha256": "3326306e9a4eca5eff95478713765ad9bc22c954527e8622009434af8c0d4015"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-07-02",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-07-02.zip",
+      "filename": "ETHUSDT-aggTrades-2026-07-02.zip",
+      "bytes": 13304774,
+      "sha256": "72f772af5bf399bfbf20689d4fb643c53686b547d21d70b8b196fa8ca9c38202"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-07-03",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-07-03.zip",
+      "filename": "ETHUSDT-aggTrades-2026-07-03.zip",
+      "bytes": 11283528,
+      "sha256": "8fe117877d8ff6d2d0bc8f9800cb6521fb66264c9f6c8d7b3efe9f439a293e81"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-08-01",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-08-01.zip",
+      "filename": "ETHUSDT-aggTrades-2026-08-01.zip",
+      "bytes": 3694582,
+      "sha256": "f3f8f02910588b72e6458f337715a62a8461beacee1784d914d0964b4d943c9c"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-08-02",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-08-02.zip",
+      "filename": "ETHUSDT-aggTrades-2026-08-02.zip",
+      "bytes": 4907334,
+      "sha256": "75b19e46ded820583a0f7f10d76ef7144732d26b060555441429204e7eae63c2"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-08-03",
+      "url": "https://data.binance.vision/data/spot/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2026-08-03.zip",
+      "filename": "ETHUSDT-aggTrades-2026-08-03.zip",
+      "bytes": 6836470,
+      "sha256": "2d7a17278386c868b2bb71bfda4f5bfbeb6404e8960e3557cdac8b48b895636d"
+    }
+  ],
+  "timestamp_unit": "microseconds (official SPOT contract from 2025 onward)"
+}
