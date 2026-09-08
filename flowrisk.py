@@ -33,7 +33,7 @@ def sha(path):
         for block in iter(lambda:file.read(1024*1024),b''):digest.update(block)
     return digest.hexdigest()
 
-def fetch(days=7,max_mb=250):
+def fetch(days=3,max_mb=250):
     import requests
     folder=ROOT/'data';folder.mkdir(exist_ok=True)
     requests_list=[]
@@ -274,7 +274,7 @@ def plot(predictions,results):
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('command',choices=['fetch','aggregate','train'])
-    parser.add_argument('--days',type=int,default=7);parser.add_argument('--max-mb',type=int,default=250)
+    parser.add_argument('--days',type=int,default=3);parser.add_argument('--max-mb',type=int,default=250)
     args=parser.parse_args()
     for name in ['data','outputs','models']:(ROOT/name).mkdir(exist_ok=True)
     with threadpool_limits(limits=2):
