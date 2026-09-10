@@ -8,6 +8,12 @@ The completed pilot's main finding is a failure of the learned models to beat si
 
 ![Held-out forecasting comparison](outputs/benchmark.png)
 
+## Dataset at a glance
+
+The saved run downloads **18 Binance public spot aggregate-trade archives**: BTCUSDT and ETHUSDT, three selected days in each of June, July and August. One raw row is an aggregate-trade event with price, quantity, timestamp and trade-side information—not an order-book snapshot. **15,810,312 events** aggregate into **25,920 symbol-minute observations**, from which past-minute features predict future variance and quote volume.
+
+After warm-up and incomplete-target removal, the chronological partitions contain **8,512 training / 8,512 development / 8,512 test rows**. They use June 1–3, July 1–3 and August 1–3, respectively: nine sampled days, not a continuous quarter. Overlapping future targets are correlated. Archive checksums and download details are in [`outputs/provenance.json`](outputs/provenance.json).
+
 ## Technical snapshot
 
 | Question | Implementation |
