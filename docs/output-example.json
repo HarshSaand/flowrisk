@@ -1,0 +1,78 @@
+{
+  "title": "FlowRisk",
+  "subtitle": "A saved five-minute trade-volume forecast",
+  "eyebrow": "ACTUAL HELD-OUT MODEL OUTPUT",
+  "context": "Forecast origin: 2026-08-01 00:59:00+00:00 · BTC / ETH spot aggregate trades",
+  "columns": [
+    "Symbol",
+    "Forecast · USDT",
+    "90% model interval",
+    "Observed · USDT"
+  ],
+  "rows": [
+    [
+      "BTCUSDT",
+      "3,563,611",
+      "844,784 – 10,583,072",
+      "1,091,671"
+    ],
+    [
+      "ETHUSDT",
+      "1,495,939",
+      "605,052 – 5,535,269",
+      "342,026"
+    ]
+  ],
+  "raw": [
+    {
+      "timestamp": "2026-08-01 00:59:00+00:00",
+      "symbol": "BTCUSDT",
+      "target_variance": 2.784224702291005e-09,
+      "target_volume": 1091670.7254527002,
+      "variance_historical_60min": 2.5174628510838703e-09,
+      "variance_ewma_15min": 1.721655409508518e-09,
+      "variance_learned": 9.616807685397831e-09,
+      "variance_q05": 2.772792600777873e-10,
+      "variance_q95": 1.2251049993949377e-08,
+      "volume_historical_60min": 2714003.1233566585,
+      "volume_ewma_15min": 1095159.0984668136,
+      "volume_learned": 3563610.977902477,
+      "volume_q05": 844783.7303037943,
+      "volume_q95": 10583072.390776385
+    },
+    {
+      "timestamp": "2026-08-01 00:59:00+00:00",
+      "symbol": "ETHUSDT",
+      "target_variance": 6.495517180793533e-09,
+      "target_volume": 342026.27667600004,
+      "variance_historical_60min": 6.509494002945733e-09,
+      "variance_ewma_15min": 3.2989371922354915e-09,
+      "variance_learned": 1.0462438507143602e-08,
+      "variance_q05": 1.1405181691081475e-09,
+      "variance_q95": 1.36749498989073e-08,
+      "volume_historical_60min": 671605.811811,
+      "volume_ewma_15min": 473985.49128952145,
+      "volume_learned": 1495939.2328566948,
+      "volume_q05": 605051.9650392563,
+      "volume_q95": 5535268.919590733
+    }
+  ],
+  "note": "Forecasts made after the minute closes. Observed outcomes are shown retrospectively, not used as inputs. This example retains the model’s overprediction; it is not a trading instruction.",
+  "input": "Closed-minute trade-flow features",
+  "output": "Next-five-minute quote-volume forecast and interval",
+  "sources": [
+    {
+      "path": "data/test-predictions.csv",
+      "sha256": "be6f500f929a86147b7d018d940fdfca4b4af59534a428dab82e2ac1913fbcc9"
+    },
+    {
+      "path": "outputs/provenance.json",
+      "sha256": "fd5493a6355d52cab97c607c41598a707974ce59ace9b8a37d422ebeffc6e27f"
+    }
+  ],
+  "source_repository": "https://github.com/HarshSaand/flowrisk",
+  "extraction": "python docs/extract_showcase.py --source /path/to/reproduced/project",
+  "dataset_url": "https://github.com/binance/binance-public-data",
+  "source_code_commit": "5e7031b0dbd11336a717696cb88408adbb4f685a",
+  "extractor_sha256": "2a41c955ed2b33d1b11adf8dcec6747c95138c7e29d8ffa11a658a9a605906b2"
+}

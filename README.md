@@ -1,5 +1,30 @@
 # FlowRisk — Trade-Flow Forecasting
 
+## Actual output example
+
+![A saved five-minute trade-volume forecast.](docs/output-showcase.png)
+
+**Input:** Closed-minute trade-flow features. **Output:** Next-five-minute quote-volume forecast and interval.
+
+Forecasts made after the minute closes. Observed outcomes are shown retrospectively, not used as inputs. This example retains the model’s overprediction; it is not a trading instruction.
+
+[Inspect the full output record and source hashes](docs/output-example.json) · [Open the standalone review page](docs/output-showcase.html) · [Original dataset](https://github.com/binance/binance-public-data)
+
+### Reproduce this example
+
+Follow the project setup/data steps below first. `--source` points to a reproduced project directory with its local data, saved predictions or checkpoints; use `.` when running in that directory. The exporter never silently invents missing inputs.
+
+```bash
+python docs/extract_showcase.py --source /path/to/reproduced/project
+python docs/render_showcase.py
+# Open docs/output-showcase.html directly, or capture the image with Chrome:
+npm install --no-save playwright
+node docs/capture_showcase.mjs
+```
+
+The JSON records the exact source-relative filenames, SHA-256 hashes and code revision. Rendering uses saved values; displayed decimals are rounded only for readability. Raw datasets and model checkpoints remain outside this documentation bundle.
+
+
 FlowRisk studies a practical execution-research question: how much can recent trade flow tell us about the next minute's price variation and the next five minutes' traded volume? It turns actual Binance aggregate-trade records into a chronological forecasting benchmark, rather than presenting a hypothetical profitable trading strategy.
 
 The project compares historical and exponentially weighted forecasts with trained gradient-boosted mean and quantile models. It records out-of-time errors, uncertainty coverage and negative comparisons. **It uses trades, not order-book snapshots:** no spread/depth reconstruction, queue-position model, executable fill, market-impact estimate or profit claim is made.
