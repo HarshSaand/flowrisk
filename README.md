@@ -1,5 +1,7 @@
 # FlowRisk — Trade-Flow Forecasting
 
+[Read the project report (PDF)](docs/PROJECT_REPORT.pdf) · [Explore the explanation and flow diagram](docs/PROJECT_REPORT.md)
+
 ## Actual output example
 
 ![A saved five-minute trade-volume forecast.](docs/output-showcase.png)
